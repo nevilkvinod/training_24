@@ -23,8 +23,8 @@ int main(void) {
 	for (int i = 0; i < 10; i++) {
 		digital[i] = adc_convert(analog[i], an);
 	}
-
-	for (int i = 0; i < 10; i++) 
+int i;
+	for ( i = 0; i < 10; i++) 
 	{
 		converted_analog[i] = dac_convert(digital[i], dn);
 		

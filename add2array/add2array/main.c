@@ -25,7 +25,7 @@ int main(void) {
 
 	fun(arr, brr, n1, crr);
 
-	printf("Resultant array: ");
+	printf("Resultant: ");
 	for(int i = 0; i < n1; i++) {
 		printf("%d ", crr[i]);
 	}

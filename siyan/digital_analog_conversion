@@ -1,3 +1,7 @@
+xxxxxxxxxxxxxxxxx------------------------------xxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxx------------------------------xxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxx------------------------------xxxxxxxxxxxxxxxxx
+
 /*
  * eleventh.c
  *
@@ -26,7 +30,7 @@ int main(void)
 	float result=analog_voltage - b;
 }
 
-
+xxxxxxxxxxxxxxxxx------------------------------xxxxxxxxxxxxxxxxx
 
 
 /*
@@ -65,7 +69,7 @@ float dac(float analog_digital,int dac_resolution){
 	return digital_analog;	
 }
 
-
+xxxxxxxxxxxxxxxxx------------------------------xxxxxxxxxxxxxxxxx
 
 /*
  * power.c
@@ -83,3 +87,7 @@ long int power(int a, int b){
 	
 	return ans;
 }
+
+xxxxxxxxxxxxxxxxx------------------------------xxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxx------------------------------xxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxx------------------------------xxxxxxxxxxxxxxxxx

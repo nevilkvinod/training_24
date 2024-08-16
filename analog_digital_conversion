@@ -1,0 +1,93 @@
+
+xxxxxxxxxxxxxxxxx------------------------------xxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxx------------------------------xxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxx------------------------------xxxxxxxxxxxxxxxxx
+
+/*
+ * eleventh.c
+ *
+ * Created: 30-07-2024 17:27:33
+ * Author : Siyan Ananth A
+ */ 
+
+#include <avr/io.h>
+extern float vref=3.3;
+
+int adc(float analog_voltage,int adc_resolution);
+float dac(float a,int adc_resolution);
+
+int main(void)
+{
+    /* Replace with your application code */
+    float analog_voltage=2;
+	int adc_resolution=14,dac_resolution=16;
+	
+	float a;
+	a=adc(analog_voltage,adc_resolution);
+	
+	float b;
+	b=dac(a,dac_resolution);
+	
+	float result=analog_voltage - b;
+}
+
+xxxxxxxxxxxxxxxxx------------------------------xxxxxxxxxxxxxxxxx
+
+/*
+ * adc.c
+ *
+ * Created: 30-07-2024 17:30:25
+ *  Author: Siyan Ananth A
+ */ 
+#include <math.h>
+float vref;
+long int power (int , int);
+
+int adc(float analog_voltage,int adc_resolution){
+	int analog_digital;
+	long int a=power(2,adc_resolution)-1;
+	analog_digital = (analog_voltage/vref)*a;
+	return analog_digital;
+}
+
+xxxxxxxxxxxxxxxxx------------------------------xxxxxxxxxxxxxxxxx
+
+/*
+ * dac.c
+ *
+ * Created: 30-07-2024 17:36:53
+ *  Author: Siyan Ananth A
+ */ 
+#include<math.h>
+float vref;
+long int power (int , int);
+
+float dac(float analog_digital,int dac_resolution){
+	float digital_analog;
+	long int b = power(2,dac_resolution)-1;
+	digital_analog=(analog_digital/b)*vref;
+	return digital_analog;	
+}
+
+xxxxxxxxxxxxxxxxx------------------------------xxxxxxxxxxxxxxxxx
+
+/*
+ * power.c
+ *
+ * Created: 31-07-2024 09:16:41
+ *  Author: Siyan Ananth A
+ */ 
+
+long int power(int a, int b){
+	long int ans=a;
+	while(b>1){
+		ans*=a;
+		b--;
+	}
+	
+	return ans;
+}
+
+xxxxxxxxxxxxxxxxx------------------------------xxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxx------------------------------xxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxx------------------------------xxxxxxxxxxxxxxxxx

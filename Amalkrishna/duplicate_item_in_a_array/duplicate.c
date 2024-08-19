@@ -32,6 +32,7 @@ void find_duplicate(int* ptr ,int array_size){
             if (*(ptr+i)==*(ptr+j)){
               flag=1;
                 duplicate =*(ptr+i);
+                break;
             }
             j++;
         }

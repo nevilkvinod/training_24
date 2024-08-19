@@ -17,6 +17,7 @@ int main(){
 
     find_duplicate(array,array_size);
     printf("\nThe first duplicate element found is/editted by yadhu %d .",duplicate);
+    //printf("\nThe first duplicate element found is %d .",duplicate);
     return 0;
 }
 

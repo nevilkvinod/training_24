@@ -38,12 +38,21 @@ void find_duplicate(int* ptr ,int array_size){
                //flag=1;
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
               flag=1;
 >>>>>>> 9de60ca (resolving conflict 2)
 =======
               //  flag=1;
 >>>>>>> 6103b8d (creating a conflict)
 >>>>>>> e54a6cc (creating a conflict)
+=======
+              //  flag=1;
+>>>>>>> 6103b8d (creating a conflict)
+=======
+              flag=1;
+>>>>>>> 9de60ca (resolving conflict 2)
+>>>>>>> f26aac2 (resolving conflict 2)
+>>>>>>> 03bccae (resolving conflict 2)
                 duplicate =*(ptr+i);
                 break;
             }

@@ -55,10 +55,14 @@ void main()
     }
     if(c1!= r2)
 <<<<<<< HEAD
+<<<<<<< HEAD
     // printf("multiplication not possible making conflict siyan\n");
 =======
     printf("multiplication not possible making conflict siyan\n");
 >>>>>>> b64953c (made a change in yadhu file)
+=======
+    // printf("multiplication not possible making conflict siyan\n");
+>>>>>>> 5273e99 (conflict check)
     else
     multiply(r1,c1,r2,c2,arr1,arr2);
 

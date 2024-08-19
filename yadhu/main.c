@@ -8,6 +8,6 @@ void main()
     printf("enter the value of n\n");
     scanf("%d",&n);
      t=x ^ (1<<(n-1));
-     printf("%d",t);
+     //printf("%d",t);
      
 }

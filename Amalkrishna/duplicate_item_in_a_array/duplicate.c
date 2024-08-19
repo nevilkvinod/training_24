@@ -33,8 +33,12 @@ void find_duplicate(int* ptr ,int array_size){
         j=i+1;
         while(j<array_size){
             if (*(ptr+i)==*(ptr+j)){
+<<<<<<< HEAD
             //    ******flag=1;
                //flag=1;
+=======
+              //  flag=1;
+>>>>>>> 6103b8d (creating a conflict)
                 duplicate =*(ptr+i);
                 break;
             }

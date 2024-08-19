@@ -45,7 +45,6 @@ void find_duplicate(int* ptr ,int array_size){
 >>>>>>> 9de60ca (resolving conflict 2)
 >>>>>>> f26aac2 (resolving conflict 2)
                 duplicate =*(ptr+i);
-                break;
             }
             j++;
         }

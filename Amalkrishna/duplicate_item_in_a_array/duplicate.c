@@ -39,6 +39,7 @@ void find_duplicate(int* ptr ,int array_size){
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
               flag=1;
 >>>>>>> 9de60ca (resolving conflict 2)
 =======
@@ -46,13 +47,18 @@ void find_duplicate(int* ptr ,int array_size){
 >>>>>>> 6103b8d (creating a conflict)
 >>>>>>> e54a6cc (creating a conflict)
 =======
+=======
+>>>>>>> 70ccc8fa40dd07d020c59579e19493672b9ca00b
               //  flag=1;
 >>>>>>> 6103b8d (creating a conflict)
 =======
               flag=1;
 >>>>>>> 9de60ca (resolving conflict 2)
 >>>>>>> f26aac2 (resolving conflict 2)
+<<<<<<< HEAD
 >>>>>>> 03bccae (resolving conflict 2)
+=======
+>>>>>>> 70ccc8fa40dd07d020c59579e19493672b9ca00b
                 duplicate =*(ptr+i);
                 break;
             }

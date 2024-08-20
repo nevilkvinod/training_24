@@ -43,7 +43,7 @@ int main(void) {
 	count_vowels(str, n);
 
 	// Print the result
-	printf("Number of vowels present in the character array: %d\n", vowel_count);
+	//printf("Number of vowels present in the character array: %d\n", vowel_count);
 
 	return 0;
 }

@@ -54,7 +54,7 @@ void main()
         }
     }
     if(c1!= r2)
-    // printf("multiplication not possible making conflict edrf43ed234rf siyan\n");
+    // printf("multiplication not possible making conflict siyan\n");
     else
     multiply(r1,c1,r2,c2,arr1,arr2);
 

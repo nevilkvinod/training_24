@@ -6,24 +6,15 @@
  */ 
 
 #include <avr/io.h>
-void yethu(){
-	
-}
-void kavi(){
-	
-}
-void parvez(){
-	
-}
-void amul(){
-	
-}
-void siyan(){
-	
-}
-void adhi(){
-	
-}
+
+
+void yethu();
+void kavi();
+void parvez();
+void amul();
+void siyan();
+void adhi();
+
 int main(void)
 {
     yethu();

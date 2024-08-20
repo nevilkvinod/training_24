@@ -135,14 +135,10 @@
     <Compile Include="main.c">
       <SubType>compile</SubType>
     </Compile>
-<<<<<<< HEAD
-    <Compile Include="siyan.c">
-=======
     <Compile Include="parvez.c">
       <SubType>compile</SubType>
     </Compile>
     <Compile Include="sum.h">
->>>>>>> 44c5b17 (Changes made)
       <SubType>compile</SubType>
     </Compile>
   </ItemGroup>

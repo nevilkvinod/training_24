@@ -6,17 +6,6 @@
  */ 
 
 #include <avr/io.h>
-<<<<<<< HEAD
-
-
-void yethu();
-void kavi();
-void parvez();
-void amul();
-void siyan();
-void adhi();
-
-=======
 #include "sum.h"
 
 int a=10;
@@ -41,7 +30,6 @@ void siyan(){
 void adhi(){
 	
 }
->>>>>>> 44c5b17 (Changes made)
 int main(void)
 {
 	yethu();

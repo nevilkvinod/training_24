@@ -7,27 +7,29 @@
 
 #include <avr/io.h>
 
-void addition(){
-	int a=30,b=20,c;
-	c=a+b;
-	//c=a-b;
+void add(int a,int b){
+	int c=a+b;
+
 }
 
-void sub(){
-	int a=10;
-	int b=20;
+void sub(int a,int b){
 	int c=a-b;
 }
-void div(){
-	int a=10;
-	int b=20;
+
+void div(int a,int b){
 	int c=a/b;
+}
+
+void mul(int a,int b){
+	int c=a*b;
 }
 
 void main()
 {
-    addition();
-	sub();
-	div();
+	int a=10,b=20;
+    add(a,b);
+	sub(a,b);
+	div(a,b);
+	mul(a,b);
 }
 

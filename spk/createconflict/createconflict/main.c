@@ -31,5 +31,6 @@ void main()
 	sub(a,b);
 	div(a,b);
 	mul(a,b);
+	printf("%d",12);
 }
 

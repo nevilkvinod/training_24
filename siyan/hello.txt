@@ -1,9 +1,0 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-hello world
-=======
-hi
->>>>>>> 95ad42b (added a text file)
-=======
-hello world
->>>>>>> 9a46556 (added a file)

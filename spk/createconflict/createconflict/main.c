@@ -32,5 +32,6 @@ void main()
 	div(a,b);
 	mul(a,b);
 	printf("%d",12);
+	printf("HOI");
 }
 

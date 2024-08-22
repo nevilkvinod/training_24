@@ -34,7 +34,7 @@ int main(void)
 		} else {
 		printf(" %d ", ex);
 	}
-printf(" %d ", ex);
+printf(" Khan ");
 	return 0;
 }
 

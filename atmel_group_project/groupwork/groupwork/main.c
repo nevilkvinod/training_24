@@ -33,6 +33,9 @@ void parvez(int a,int b){
 void amal(){
 	int sum;
 	sum=5+3;
+
+	int mult;
+	mult = 5*3;
 	
 	
 }

@@ -6,17 +6,15 @@
  */ 
 
 #include <avr/io.h>
-<<<<<<< HEAD
 
 
 void yethu();
 void kavi();
 void parvez();
-void amul();
+void amal();
 void siyan();
 void adhi();
 
-=======
 #include "sum.h"
 
 int a=10;
@@ -32,7 +30,10 @@ void parvez(int a,int b){
 	int s;
 	s=sum(a,b);
 }
-void amul(){
+void amal(){
+	int sum;
+	sum=5+3;
+	
 	
 }
 void siyan(){
@@ -41,13 +42,12 @@ void siyan(){
 void adhi(){
 	
 }
->>>>>>> 44c5b17 (Changes made)
 int main(void)
 {
 	yethu();
 	kavi();
 	parvez(a,b);
-	amul();
+	amal();
 	siyan();
 	adhi();
 	

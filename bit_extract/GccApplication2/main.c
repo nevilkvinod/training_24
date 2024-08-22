@@ -29,6 +29,7 @@ int main(void)
 	int ex = extract_bits(a, p, n);
 	
 	printf("Extracted Bits: %d\n", ex);
+	printf("\n Khan");
 
 	return 0;
 }

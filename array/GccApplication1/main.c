@@ -34,7 +34,11 @@ int main(void)
 		} else {
 		printf(" %d ", ex);
 	}
+
 printf(" Parvez");
+
+printf(" Khan ");
+
 	return 0;
 }
 

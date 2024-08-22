@@ -13,7 +13,7 @@ void fun(int **ptr1, int rows, int columns) {
 		for (int j = 0; j < columns; j++) {
 			printf("%d ", ptr1[j][i]);
 		}
-		printf("\n");
+		
 	}
 }
 

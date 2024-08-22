@@ -38,6 +38,7 @@ int main(void) {
 	// Example array of 8 characters
 	char str[] = {'H', 'e', 'l', 'l', 'o', 'U', 's', 'u'};
 	int n = sizeof(str) / sizeof(str[0]);  // Calculate the number of elements in the array
+	
 
 	// Count the vowels in the predefined array
 	count_vowels(str, n);

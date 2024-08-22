@@ -33,6 +33,7 @@ int main(void) {
 	for (int i = 0; i < 3; i++) {
 		ptrs[i] = arr[i];
 	}
+	printf("\n");
 
 	fun(ptrs, 3, 3);
 

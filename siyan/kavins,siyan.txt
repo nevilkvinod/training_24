@@ -1,7 +1,6 @@
 hello
 hello siyan
 
-hello kavin
-
 hello world
+hello kavin
 
